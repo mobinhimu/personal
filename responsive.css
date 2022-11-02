@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 97%;
+        margin: 15px auto;
+      }
+  .contentWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .left {
+    width: 30%;
+  }
+  .right {
+    width: 68%;
+  }
+  .footerIco ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

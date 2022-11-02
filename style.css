@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.container {
+  width: 95%;
+  margin: 10px auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+section {
+  margin-bottom: 25px;
+}
+p,
+span {
+  font-size: 14px;
+}
+.left {
+  width: 100%;
+  box-shadow: 0px 0px 40px -10px rgb(114 114 114);
+}
+.right {
+  width: 100%;
+}
+.content {
+  margin-bottom: 25px;
+}
+.contentWrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.nameDesc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.myImg {
+  width: 100%;
+  position: relative;
+}
+.myImg > h1 {
+  position: absolute;
+  bottom: 40px;
+  left: 15px;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.myImg img {
+  width: 100%;
+}
+
+.nameIcon {
+  padding: 15px;
+}
+.nameIcon:last-child {
+  padding: 0px 15px;
+}
+.nameIcon > div {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.nameIcon > div:last-child {
+  margin-bottom: 0px;
+}
+.nameIcon i {
+  color: #009688;
+  padding-right: 10px;
+}
+.nameIcon span {
+  color: #757575;
+}
+
+.skillWrap {
+  margin-top: 15px;
+}
+
+.skillWrap p,
+.language P {
+  padding: 15px;
+}
+.Sectiontitle {
+  color: #009688;
+  display: flex;
+  align-items: center;
+}
+.Sectiontitle i {
+  margin-right: 20px;
+  font-size: 20px;
+  padding-left: 15px;
+}
+.Sectiontitle h1 {
+  font-size: 20px;
+  color: #757575;
+}
+.skillWrap p,
+.language P {
+  color: #757575;
+  font-weight: 500;
+}
+.skillWrap span,
+.language span {
+  margin-left: 15px;
+  display: inline-block;
+  height: 18px;
+  width: 90%;
+  background-color: #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  overflow: auto;
+}
+.photoshop span::before,
+.bangla span::before {
+  content: "70%";
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 18px;
+  width: 90%;
+  background-color: #009688;
+  font-size: 10px;
+}
+.bangla span::before {
+  width: 85%;
+  content: "85%";
+}
+.html span::before,
+.english span::before {
+  content: "77%";
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 18px;
+  width: 77%;
+  background-color: #009688;
+  font-size: 10px;
+}
+.english span::before {
+  content: "72%";
+  width: 72%;
+}
+.css span::before,
+.hindi span::before {
+  content: "87%";
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 18px;
+  width: 87%;
+  background-color: #009688;
+  font-size: 10px;
+}
+.hindi span::before {
+  content: "57%";
+  width: 57%;
+}
+section.language {
+  padding: 25px 0px;
+}
+
+/* right content */
+#workExp {
+  padding: 20px 0px;
+  box-shadow: 0px 0px 40px -10px rgb(114 114 114);
+}
+
+.container-sec {
+  width: 90%;
+  margin: 0 auto;
+}
+.frontHead {
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.frontHead i {
+  color: #009688;
+  font-size: 35px;
+  margin-right: 15px;
+}
+.frontHead h1 {
+  color: #757575;
+  font-size: 25px;
+}
+.date {
+  color: #009688;
+  padding-bottom: 15px;
+}
+.date i {
+  margin-right: 15px;
+}
+.date span {
+  font-size: 16px;
+  margin-right: 20px;
+}
+#current::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 15px;
+  background-color: #009688;
+  left: -20px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+#current {
+  background-color: #009688;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.expdesc {
+  padding-bottom: 20px;
+}
+.expdesc p {
+  line-height: 1.5;
+  text-align: justify;
+}
+.devHead {
+  margin-top: 40px;
+  padding-bottom: 35px;
+}
+.devHead {
+  color: #757575;
+}
+#edu {
+  margin-top: 20px;
+  box-shadow: 0px 0px 40px -10px rgb(114 114 114);
+  padding: 20px 0px;
+  margin-bottom: 0px;
+}
+
+.w3scl h3 {
+  color: #757575;
+  padding-bottom: 15px;
+}
+.w3scl i {
+  color: #009688;
+  margin-right: 15px;
+}
+.w3scl span {
+  color: #009688;
+  margin-right: 15px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+.w3scl p {
+  margin: 20px 0px;
+}
+.ssc {
+  margin-top: 40px;
+}
+
+/* bio */
+.bio {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+footer{
+  background-color: #009688;
+  margin-bottom: -15px;
+}
+small{
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+  color: white;
+}
+.footerWrap{
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+.footerIco ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.footerIco ul li a{
+  text-decoration: none;
+  color: white;
+ display: inline-block;
+ height: 30px;
+ width: 30px;
+ border: 1px solid #ddd;
+ border-radius: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: background-color 0.3s;
+}
+.footerIco ul li a:hover{
+  background-color: goldenrod;
+}
+.footerSesc p{
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ddd;
+  font-weight: 900;
+  letter-spacing: 1.3px;
+}
+.MH {
+  color: rgb(198, 240, 13);
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  transition-duration: 0.1s;
+}
+.MH:hover{
+  color: rgb(165, 202, 0);
+}
