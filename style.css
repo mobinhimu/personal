@@ -300,7 +300,8 @@ small{
 .footerIco ul{
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
 }
 .footerIco ul li a{
   text-decoration: none;
