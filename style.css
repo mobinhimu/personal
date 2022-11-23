@@ -87,17 +87,17 @@ span {
 .language P {
   padding: 15px;
 }
-.Sectiontitle {
+.sectionTitle {
   color: #009688;
   display: flex;
   align-items: center;
 }
-.Sectiontitle i {
+.sectionTitle i {
   margin-right: 20px;
   font-size: 20px;
   padding-left: 15px;
 }
-.Sectiontitle h1 {
+.sectionTitle h1 {
   font-size: 20px;
   color: #757575;
 }
@@ -232,10 +232,10 @@ section.language {
   cursor: pointer;
   position: relative;
 }
-.expdesc {
+.expDesc {
   padding-bottom: 20px;
 }
-.expdesc p {
+.expDesc p {
   line-height: 1.5;
   text-align: justify;
 }
@@ -282,44 +282,44 @@ section.language {
   padding-bottom: 20px;
   text-align: center;
 }
-footer{
+footer {
   background-color: #009688;
   margin-bottom: -15px;
 }
-small{
+small {
   text-align: center;
   display: block;
   margin-top: 25px;
   color: white;
 }
-.footerWrap{
+.footerWrap {
   width: 70%;
   margin: 0 auto;
   padding: 40px 0px;
 }
-.footerIco ul{
+.footerIco ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
   gap: 20px;
 }
-.footerIco ul li a{
+.footerIco ul li a {
   text-decoration: none;
   color: white;
- display: inline-block;
- height: 30px;
- width: 30px;
- border: 1px solid #ddd;
- border-radius: 100%;
- display: flex;
- justify-content: center;
- align-items: center;
- transition: background-color 0.3s;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
 }
-.footerIco ul li a:hover{
+.footerIco ul li a:hover {
   background-color: goldenrod;
 }
-.footerSesc p{
+.footerSecs p {
   text-align: center;
   margin-bottom: 25px;
   color: #ddd;
@@ -332,6 +332,6 @@ small{
   letter-spacing: 1.3px;
   transition-duration: 0.1s;
 }
-.MH:hover{
+.MH:hover {
   color: rgb(165, 202, 0);
 }
